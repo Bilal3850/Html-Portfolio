@@ -1,2 +1,3 @@
 # Html-Portfolio
-<P>This is MY Resume</P>
+<h1>This is MY Resume</h1>
+
