@@ -1,59 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
-</head>
-<body>
-    <h1>Muhammad Bilal</h1>
-    <img src="./images/Bilal.jpg" alt="Bilal" height="200">
-    <hr>
+    <style>
+      body {
+        background-color: aliceblue;
+      }
+      .img {
+        border-radius: 50%;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .h1 {
+        background-color: lightseagreen;
+        color: whitesmoke;
+        margin: 20px;
+      }
+      .h2 {
+        background-color: lightgray;
+        margin: 20px;
+      }
+      .h3 {
+        background-color: rgb(150, 150, 117);
+        margin: 20px;
+      }
+      .footer {
+        text-align: center;
+      }
+      .btn {
+        background-color: peru;
+        border-radius: 10px;
+        border: none;
+        margin: 10px;
+        padding: 10px;
+      }
+      div {
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="h1">Muhammad Bilal</h1>
+    <img class="img" src="./images/Bilal.jpg" alt="Bilal" height="200" />
+    <hr />
     <!-- Summary or objective statement -->
-    <h2>Objectives</h2>
+    <h2 class="h2">Objectives</h2>
     <ul>
-        <li>To become a Professional Web Developer.</li>
-        <li>Work on the freelance market places.</li>
-        <li>Getting a job in a Big companies.</li>
-        <li>Getting great opertunities in the Tech industry.</li>
+      <li>To become a Professional Web Developer.</li>
+      <li>Work on the freelance market places.</li>
+      <li>Getting a job in a Big companies.</li>
+      <li>Getting great opertunities in the Tech industry.</li>
     </ul>
-    <hr>
+    <hr />
     <!-- Education (list degrees, schools, and dates) -->
-    <h2>Education</h2>
+    <h2 class="h2">Education</h2>
     <ul>
-        <li>Bachelor of Sciences, in Urban and Regional Planning. University of Peshawar, Pakistan.</li>
+      <li>
+        Bachelor of Sciences, in Urban and Regional Planning. University of
+        Peshawar, Pakistan.
+      </li>
     </ul>
-    <hr>
+    <hr />
 
     <!-- Work experience (list job titles, employers, dates, and responsibilities) -->
-    <h2>Work Experience</h2>
+    <h2 class="h2">Work Experience</h2>
     <ul>
-        <li><h3>Autocad Draftsman - Safecore consultants, Peshawar</h3>
-            <p>October, 2022 - November, 2022</p></li>
+      <li>
+        <h3 class="h3">Autocad Draftsman - Safecore consultants, Peshawar</h3>
+        <p>October, 2022 - November, 2022</p>
+      </li>
     </ul>
 
     <!-- Skills (list relevant skills or areas of expertise) -->
-    <h3>Skills</h3>
+    <h3 class="h3">Skills</h3>
     <ul>
-        <li>Autocad 2d & 3d: ⭐⭐⭐⭐</li>
-        <li>Mirosoft office Suite: ⭐⭐⭐</li>
-        <li>Graphic Designing: ⭐⭐⭐</li>
+      <li>Autocad 2d & 3d: ⭐⭐⭐⭐</li>
+      <li>Mirosoft office Suite: ⭐⭐⭐</li>
+      <li>Graphic Designing: ⭐⭐⭐</li>
     </ul>
     <!-- Awards, certifications, or other achievements (list any relevant awards, certifications, or other accomplishments) -->
-    <h3>Awards and Certications</h3>
+    <h3 class="h3">Awards and Certications</h3>
     <ul>
-        <li>Qirat Competition, in Gazali Public School (June, 2017)</li>
+      <li>Qirat Competition, in Gazali Public School (June, 2017)</li>
     </ul>
-    <hr>
+    <hr />
     <!-- Others -->
-    <h1>Others</h1>
-    <ul>
-        <li><a href="./My_Hobbies.html">My Hobbies</a></li>
-        <li><a href="./Contact_me.html">Contact Me</a></li>
-    </ul>
-    <footer>
-        © Bilal Afridi. All Rights Reserved.
-    </footer>
+    <h1 class="h1">Others</h1>
+    <div>
+      <button class="btn">My Hobbies <a href="./My_Hobbies.html"> </a></button>
+      <br>
+      <button class="btn">Contact me <a href="./Contact_me.html"> </a></button>
+    </div>
 
-</body>
+    <footer class="footer">© Bilal Afridi. All Rights Reserved.</footer>
+  </body>
 </html>
